@@ -198,7 +198,7 @@ Apricorn Screen:
 apricorn_screen_apricorns,Apricornio
 apricorn_screen_producing,Estoy produciendo bolas en este momento.~Vuelve mas tarde.
 apricorn_screen_backadvice,PULSAR E PARA SALIR
-apricorn_screen_choose_apricorns,Please choose the Apricorns I should take to produce Pokéballs.
+apricorn_screen_choose_apricorns,Por favor selecciona el Apricornio Y el producira las pokeballs.
 apricorn_screen_ok,OK
 apricorn_screen_clear,Eliminar
 apricorn_screen_take,Coger
