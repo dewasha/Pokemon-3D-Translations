@@ -150,7 +150,7 @@ option_screen_textspeed_description,La velocidad del texto muestra y visualiza e
 option_screen_fov,FOV
 option_screen_fov_description,Campo de vision. Cuanto mas alto es el valor,~mas tiene.~Aviso: Un valor muy alto puede causar retrasos en mapas grandes.
 option_screen_mousespeed,Velocidad raton
-option_screen_mousespeed_description,The Mousespeed sets the speed on which the~mouse can rotate the view.
+option_screen_mousespeed_description,La velocidad del raton ajusta la velocidad~con la que el raton gira la vista.
 option_screen_volume,Volumen
 option_screen_volume_description,El volumen de la musica de fondo.~Estos ajustes afectaran a todos los guardados.
 option_screen_render_distance,Distancia renderizado
@@ -219,16 +219,16 @@ daycare_screen_pokemon_choose_header,Depositar Pokémon
 Egg,Huevo
 ---
 Network Screen:
-network_screen_isonline,You are in a co-op game already! Please close the connection~to open a new game or connect again!~~~PULSAR E PARA VOLVER!
+network_screen_isonline,Tu ya estas en una partida Online! Porfavor cierra la conexion~para abrir una nueva partida!~~~PULSAR E PARA VOLVER!
 network_screen_header,Juego Co-operativo
-network_screen_main_header,You can either join a game or host a~new one to play together with a friend.
+network_screen_main_header,Aqui puedes crear o entrar en una partida multijugador.
 network_screen_main_join,Entrar
 network_screen_main_host,Crear
 network_screen_main_close,Cerrar
-network_screen_join_header,Entrar en juego:~Enter the IP address of the hosted game.
+network_screen_join_header,Entrar en juego:~Introduce la direccion IP de la partida.
 network_screen_join_cancel,Cancelar
 network_screen_join_join,Entrar
-network_screen_host_header,Crear juego:~You are about to open your~game for other players in your network.
+network_screen_host_header,Crear juego:~Para abrir tu propia partida~para otros jugadores en tu red.
 network_screen_host_cancel,Cancelar
 network_screen_host_host,Crear
 ---
@@ -264,7 +264,7 @@ battle_main_trainer_defeat_1,~fue derrotado!
 battle_main_trainer_defeat_2, y~
 battle_main_trainer_defeat_3,~fueron derrotados!
 battle_main_trainer_defeat_4, tiene 
-battle_main_trainer_defeat_5,~PokéDollar para conseguir!
+battle_main_trainer_defeat_5,~PokéDollars para conseguir!
 ---
 attackTurn:
 battle_attack_poison_damage,~se vio afectado por el veneno!
