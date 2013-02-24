@@ -152,40 +152,40 @@ option_screen_fov_description,Campo de vision. Cuanto mas alto es el valor,~mas 
 option_screen_mousespeed,Velocidad raton
 option_screen_mousespeed_description,The Mousespeed sets the speed on which the~mouse can rotate the view.
 option_screen_volume,Volumen
-option_screen_volume_description,The volume of the background music.~This settings is for all save states.
+option_screen_volume_description,El volumen de la musica de fondo.~Estos ajustes afectaran a todos los guardados.
 option_screen_render_distance,Distancia renderizado
 option_screen_render_distance_tiny,Cercana
 option_screen_render_distance_short,Corta
 option_screen_render_distance_normal,Normal
 option_screen_render_distance_far,Lejos
 option_screen_render_distance_extreme,Extrema
-option_screen_render_distance_description,The renderdistance determines,~how far you can see.~By turning this down, you can improve your FPS.
+option_screen_render_distance_description,La distancia de renderizado determina,~como de lejos se produce.~Disminuyendolo, mejoraras los FPS.
 option_screen_graphics,Graficos
 option_screen_graphics_fancy,Bonito
 option_screen_graphics_fast,Rapido
-option_screen_graphics_description,Affects if some objects are rendered~or not. By turning this down, you can improve your FPS.~This settings is for all save states.
-option_screen_offset_map_quality,Offset map quality
-option_screen_offset_map_off,Off
-option_screen_offset_map_quality_description,Sets the quality of the offset maps.~The details and update frequency of offset maps increase with this value.~Set this value to 0 to prevent the game from loading offset maps.
+option_screen_graphics_description,Afecta a que algunos efectos se vean~o no. Disminuyendolo, mejoraras los FPS.~Estos ajustes afectaran a todos los guardados.
+option_screen_offset_map_quality,Calidad del mapa Offset
+option_screen_offset_map_off,apagado
+option_screen_offset_map_quality_description,Ajusta la calidad de los mapas Offset.~Los detalles y la frecuencia de actualizacion de los mapas offset incrementar este valor para mejorar.~Ajustar este valor a 0 para prevenir cargas de mapa.
 option_screen_animations_in_battle,Animaciones en batalla
 option_screen_animations_in_battle_no,No
 option_screen_animations_in_battle_attacks_off,Ataques desactivados
 option_screen_animations_in_battle_yes,Si
-option_screen_animations_in_battle_description,Determines if the game shows battle animations.
+option_screen_animations_in_battle_description,Determina si el juego mostrara las animaciones en las batallas.
 option_screen_difficulty,Dificultad
-option_screen_difficulty_description,Difficulty mode~Sets the level of difficulty.
+option_screen_difficulty_description,Difficulty mode~Ajusta el nivel de dificultad.
 option_screen_battle_style,Estilo batalla
 option_screen_battle_style_shift,Cambio
 option_screen_battle_style_set,Ajuste
-option_screen_battle_style_description,Battle Style~Set: You are not asked to switch out your Pokémon~Shift: You can switch out your Pokémon after defeating an opponent.
-option_screen_view_bobbing,View bobbing
-option_screen_view_bobbing_description,Turns camera shaking on or off.
+option_screen_battle_style_description,Estilo batalla~Ajuste: No seras preguntado cuando retires un pokemon~Cambio: No podras cambiar un pokemon antes de defenderse de un oponente.
+option_screen_view_bobbing,Ver bobbing
+option_screen_view_bobbing_description,Cambia el movimiento de camara enc. apag..
 option_screen_reset_options,Reiniciar ajustes.
-option_screen_reset_options_description,Resets all options.
+option_screen_reset_options_description,Reinia todos los ajustes.
 option_screen_save_options,Guardar opciones.
-option_screen_save_options_description,Save the options and close the menu.
+option_screen_save_options_description,Guarda todas las opciones y cierra el menu.
 option_screen_close_menu,Cerrar menu.
-option_screen_close_menu_description,Close the menu and do not save~the changes.
+option_screen_close_menu_description,Cierra el menu sin guardar ninguna opcion.
 ---
 Item Detail Screen:
 item_detail_screen_use,Usar
@@ -309,16 +309,16 @@ Places:
 Places_???,???
 
 Towns:
-Places_New Bark Town,New Bark Town
-Places_Cherrygrove City,Ciudad Cherrygrove
+Places_New Bark Town,Pueblo Primavera
+Places_Cherrygrove City,Ciudad Cerezo
 Places_Violet City,Ciudad Violeta
 Places_Azalea Town,Pueblo Azalea
-Places_Goldenrod City,Ciudad Goldenrod
-Places_Ecruteak City,Ciudad Ecruteak
-Places_Olivine City,Ciudad Olivine
-Places_Cianwood City,Ciudad Cianwood
-Places_Mahogany Town,Pueblo Mahogany
-Places_Blackthorn City,Ciudad Blackthorn
+Places_Goldenrod City,Ciudad Trigal
+Places_Ecruteak City,Ciudad Iris
+Places_Olivine City,Ciudad Olivo
+Places_Cianwood City,Ciudad Orquidea
+Places_Mahogany Town,Pueblo Caoba
+Places_Blackthorn City,Ciudad Endrino
 Places_Lavender Town,Pueblo Lavanda
 
 Special Houses:
@@ -334,20 +334,20 @@ Places_Your Room,Tu habitacion
 Places_Daycare,Guarderia
 
 Dungeons:
-Places_Ilex Forest,Bosque Ilex
+Places_Ilex Forest,Encinar
 Places_Dark Cave,Cueva oscura
-Places_Ruins of Alph,Ruinas de Alph
-Places_Slowpoke Well,Slowpoke Well
-Places_Sprout Tower,Torre Sprout
+Places_Ruins of Alph,Ruinas Alfa
+Places_Slowpoke Well,Pozo Slowpoke
+Places_Sprout Tower,Torre Belsprout
 Places_Union Cave,Cueva Union
-Places_Mt. Mortar,Monte Mortar
-Places_Bell Tower,Torre Bell
-Places_Burned Tower,Torre Burned
-Places_Glitter Lighthouse,Faro Glitter
-Places_Ice Path,Ice Path
-Places_National Park,Parque National
-Places_Whirl Islands,Islas Whirl
-Places_Lake of Rage,Lago de Rage
+Places_Mt. Mortar,Monte Mortero
+Places_Bell Tower,Torre Campana
+Places_Burned Tower,Torre Quemada
+Places_Glitter Lighthouse,Faro de Olivo
+Places_Ice Path,Ruta Helada
+Places_National Park,Parque Nacional
+Places_Whirl Islands,Islas Remolino
+Places_Lake of Rage,Lago de la Furia
 Places_Underground,Metro
 
 Routes:
@@ -407,32 +407,32 @@ item_category_Plants,Plantas
 item_category_KeyItems,Key Objetos
 ---
 GameMessages:
-game_message_screenshot,Screenshot saved as 
-game_message_screenshot_failed,Cannot create screenshot
-game_message_fullscreen_on,Fullscreen on
-game_message_fullscreen_off,Fullscreen off
-game_message_third_person_on,Third person mode on.
-game_message_third_person_off,Third person mode off.
-game_message_free_camera_on,Free camera mode on
-game_message_free_camera_off,Free camera mode off
-game_message_music_on,Music on
-game_message_music_off,Music off
-game_message_continue_autosave,Continued save state:
+game_message_screenshot,Pantallazo guardado en 
+game_message_screenshot_failed,No se ha podido guardar el Pantallazo
+game_message_fullscreen_on,Pantalla completa
+game_message_fullscreen_off,Ventana
+game_message_third_person_on,Modo tercera persona enc.
+game_message_third_person_off,Modo tercera persona apag.
+game_message_free_camera_on,Modo camara libre enc.
+game_message_free_camera_off,Modo camara libre apag.
+game_message_music_on,Musica enc.
+game_message_music_off,Musica apag.
+game_message_continue_autosave,Continuar estado guardado:
 ---
 Online:
-game_message_close_connection,You closed the co-op game.
-game_message_disconncet,You disconnected from the host.
-game_message_cannot_connect_client_1,Cannot connect to host (
+game_message_close_connection,Has cerrado la partida Co-operativa.
+game_message_disconncet,Te has desconectado.
+game_message_cannot_connect_client_1,imposible conectar (
 game_message_cannot_connect_client_2,)!
-game_message_client_connect_1,You joined the game (
+game_message_client_connect_1,Has entrado en el juego (
 game_message_client_connect_2,)!
-game_message_client_host_closed_1,The host (
-game_message_client_host_closed_2,) closed the connection.
-game_message_client_outdated_newer_version,You have an outdated or newer version of the game.
-game_message_host_session_started,You (host) started a Co-Op session.
-game_message_host_outdated_newer_version,The client has an outdated or newer version of the game!
-game_message_host_client_accept,A client joined the game!
-game_message_host_client_disconnect,The client disconnected! The Co-Op session has been closed.
+game_message_client_host_closed_1,El servidor (
+game_message_client_host_closed_2,) cerrado la conexion.
+game_message_client_outdated_newer_version,Tu version del juego esta desactualizada.
+game_message_host_session_started,Tu (servidor) has iniciado una sesion Co-operativa.
+game_message_host_outdated_newer_version,El cliente tiene una version desactualizada del juego!
+game_message_host_client_accept,Un cliente ha entrado en la partida!
+game_message_host_client_disconnect,El cliente se ha desconectado! La sesion Co-operativa se ha cerrado.
 ---
 General:
 HP,VI
